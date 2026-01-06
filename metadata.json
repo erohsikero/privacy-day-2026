@@ -1,0 +1,5 @@
+{
+  "name": "Expose-IF: Image Privacy Checker",
+  "description": "A metadata transparency tool built for Data Privacy Day to demonstrate how photos can reveal sensitive location data and camera details.",
+  "requestFramePermissions": []
+}
