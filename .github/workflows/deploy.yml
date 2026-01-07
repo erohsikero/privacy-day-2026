@@ -32,10 +32,6 @@ jobs:
         env:
           GITHUB_PAGES: true
       
-      - name: Copy CNAME to dist
-        run: cp CNAME dist/CNAME
-        continue-on-error: true
-      
       - name: Create .nojekyll file
         run: touch dist/.nojekyll
       
