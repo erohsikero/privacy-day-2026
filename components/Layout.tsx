@@ -14,13 +14,15 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Logo" className="h-16 w-auto" />
+              <a href="https://durhamcollege.ca/about/office-of-research-services-innovation-and-entrepreneurship-orsie/centre-for-cybersecurity-innovation" target="_blank" rel="noopener noreferrer">
+                <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Logo" className="h-16 w-auto" />
+              </a>
             </div>
             <nav className="hidden md:flex space-x-8 items-center">
               <a href="#" className="text-gray-600 hover:text-durham-green transition font-medium">Checker</a>
               <a href="#about" className="text-gray-600 hover:text-durham-green transition font-medium">Why it matters</a>
               <div className="bg-durham-green text-white px-4 py-1 rounded-full text-sm font-semibold">
-                Data Privacy Day 2025
+                Data Privacy Day 2026
               </div>
             </nav>
           </div>
