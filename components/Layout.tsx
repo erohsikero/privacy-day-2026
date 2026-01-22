@@ -14,7 +14,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <img src="/logo.svg" alt="Logo" className="h-16 w-auto" />
+              <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Logo" className="h-16 w-auto" />
             </div>
             <nav className="hidden md:flex space-x-8 items-center">
               <a href="#" className="text-gray-600 hover:text-durham-green transition font-medium">Checker</a>
